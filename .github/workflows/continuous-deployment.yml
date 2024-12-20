@@ -109,6 +109,10 @@ jobs:
         name: Checkout
         uses: actions/checkout@v4
 
+      - id: setup-playwright
+        name: Setup Playwright
+        run: npx playwright install-deps
+
       - id: setup-python
         name: Setup Python
         uses: actions/setup-python@v5

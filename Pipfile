@@ -45,6 +45,7 @@ click = "*"
 xlrd = "*"
 retry = "*"
 urllib3 = "1.26.18" # pegged to avoid test issue
+pytest-playwright = "*"
 
 [requires]
 python_version = "3.9"
